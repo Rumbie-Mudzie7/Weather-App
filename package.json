@@ -1,0 +1,24 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "This is a weather forecast site that uses a weather API to search for a specific location and toggle displaying the data in Fahrenheit or Celsius.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rumbie-Mudzie7/Weather-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rumbie-Mudzie7/Weather-App/issues"
+  },
+  "homepage": "https://github.com/Rumbie-Mudzie7/Weather-App#readme",
+  "devDependencies": {
+    "webpack": "^5.16.0",
+    "webpack-cli": "^4.4.0"
+  }
+}
