@@ -1,8 +1,15 @@
-// const locationForm = (value = '') => {
-//   const newForm = `<form action="#" method="POST" class="location-form"><input type="text" placeholder="Enter location name" name="locationName" required value="${value}"><input type="submit"></form>`;
+let myForm = document.querySelector('.form-area');
 
-//   return newForm;
-// };
+const locationForm = (value = '') => {
+  const newForm = `<form action="#" method="POST" class="location-form"><input type="text" placeholder="Enter location name" name="locationName" required value="${value}"><input type="submit"></form>`;
+
+  return newForm;
+};
+
+myForm.innerHTML = locationForm();
+let weatherForm = document.querySelector('.location-form');
+
+
 
 async function getWeatherData() {
   const path = "url"
