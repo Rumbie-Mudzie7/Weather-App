@@ -10,6 +10,19 @@
   <main class="weather-img">
     <div class="form-area"></div>
   </main>
+  <section>
+  <form id="tempCalc" onsubmit="calculateTemp(); return false">
+    <label for="temp">Please enter the temperature you'd like to convert.</label> <br>
+    <input name="temp" id="temp" type="number"> 
+    <select name="temp_diff" id="temp_diff">
+       <option value="1">°Celsius</option>
+       <option value="2">°Fahrenheit</option>
+    </select> <br>
+    <input name="temp" type="submit"> <br>
+    <span id="resultContainer"></span>
+ </form>
+</section>
+
   <script src="main.js"></script>
 </body>
 </html>
