@@ -4,3 +4,51 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #ffeaa7;
+  font-family: Impact, Arial, sans-serif;
+}
+
+form {
+  background-color: #fab1a0;
+  padding: 80px;
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+#tempCalc label {
+  font-size: 30px;
+}
+
+#temp {
+  border: none;
+  padding: 10px;
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#temp_diff {
+  height: 40px;
+  border: none;
+  margin-top: 20px;
+  font-size: 15px;
+  vertical-align: top;
+}
+
+[type="submit"] {
+  height: 35px;
+  margin: 20px;
+  width: 100px;
+  font-size: 15px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+#resultContainer {
+  font-size: 35px;
+}
