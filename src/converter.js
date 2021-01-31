@@ -9,9 +9,10 @@ function calculateTemp() {
     return celsius;
   }
 
-  // Checks if Calsius or Fahrenheit is selected
+  // Checks if Celsius or Fahrenheit is selected
   let tempSelected = document.getElementById("temp_diff");
-  let valueTemp = tempSelected.options[tempSelected.selectedIndex].value;
+  // let valueTemp = tempSelected.options[tempSelected.selectedIndex].value;
+  let valueTemp = tempSelected.value;
 
   // Checks the value inside the Temperature input
   let numberTemp = document.getElementById("temp").value;
@@ -19,11 +20,11 @@ function calculateTemp() {
   let result;
 
   if (valueTemp == 1) {
-    result = celToFah(numberTemp);
-    document.getElementById("resultContainer").innerHTML = "= " + result + "°Fahrenheit";
-  } else {
     result = fahToCel(numberTemp);
-    document.getElementById("resultContainer").innerHTML = "= " + result + "°Celsius";
+    document.getElementById("resultContainer").innerHTML = numberTemp + " °Fahreinheit = " + result + "°Celcius";
+  } else {
+    result = celToFah(numberTemp);
+    document.getElementById("resultContainer").innerHTML = numberTemp + " °Celcius = " + result + "°Fahreinheit";
   }
 
 }
