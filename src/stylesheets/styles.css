@@ -7,9 +7,21 @@
 
 body {
   font-family: Impact, Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
 
 form {
+  background-color: #fab1a0;
+  padding: 80px;
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.climateData {
   background-color: #fab1a0;
   padding: 80px;
   width: 50%;
