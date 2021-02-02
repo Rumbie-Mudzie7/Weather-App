@@ -6,15 +6,15 @@
 }
 
 body {
-  font-family: Impact, Arial, sans-serif;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
 }
 
 form {
-  background-color: #fab1a0;
+  background-color: #fab0a0a2;
   padding: 80px;
   width: 50%;
   margin: 100px auto;
@@ -22,32 +22,20 @@ form {
 }
 
 .climateData {
-  background-color: #fab1a0;
+  background-color: #fab0a0a2;
   padding: 80px;
   width: 50%;
   margin: 100px auto;
   text-align: center;
 }
 
-#tempCalc label {
-  font-size: 30px;
-}
-
-#temp {
-  border: none;
-  padding: 10px;
-  height: 40px;
-  width: 100px;
-  font-size: 20px;
-  margin-top: 20px;
-}
-
-#temp_diff {
-  height: 40px;
-  border: none;
-  margin-top: 20px;
-  font-size: 15px;
-  vertical-align: top;
+.heading {
+  font-size: 2.7em;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
 }
 
 [type="submit"] {
@@ -58,6 +46,10 @@ form {
   border: none;
   background-color: black;
   color: white;
+}
+
+#climate-head {
+  font-size: 1.5em;
 }
 
 #resultContainer {
