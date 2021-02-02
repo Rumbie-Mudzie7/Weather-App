@@ -5,7 +5,7 @@ This is a weather forecast site that uses a weather API to search for a specific
 
 ![Screenshot](src/images/city-weather.png)
 
-[Live Demo]()
+[Live Demo](https://rawcdn.githack.com/Rumbie-Mudzie7/Weather-App/9c103cd267228bfffdad7814a8381bd629b79c1f/dist/index.html)
 
 The Weather-App project demonstrates the Author's understanding of JavaScript Asynchronous programming that include Callbacks, Promises and Working with APIs among others, by implementing the following requirements of the project:
 
