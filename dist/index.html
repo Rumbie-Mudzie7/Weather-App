@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather-Application</title>
-  <link rel="stylesheet" href="../src/stylesheets/styles.css">
-</head>
-<body>
-  <main class="weather-img">
-    <div class="form-area"></div>
-  </main>
-  <section>
-  <form id="tempCalc" action="#" method="POST">
-    <label for="temp">Please enter the temperature you would like to convert.</label> <br>
-    <input name="temp" id="temp" type="number"> 
-    <select name="temp_diff" id="temp_diff">
-       <option value="1">°Celsius</option>
-       <option value="2">°Fahrenheit</option>
-    </select> <br>
-    <input name="temp" type="submit"> <br>
-    <span id="resultContainer"></span>
- </form>
-</section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-Application</title>
+    <link rel="stylesheet" href="../src/stylesheets/styles.css" />
+  </head>
+  <body>
+    <main class="weather-img">
+      <div class="center">WEATHER APPLICATION</div>
+      <div class="form-area"></div>
+    </main>
+    <section class="climateData">
+      <!-- <form id="tempCalc" action="#" method="POST"> -->
+        <!-- <label for="temp">Please enter the temperature you would like to convert.</label> <br> -->
+        <!-- <input name="temp" id="temp" type="number" />
+        <select name="temp_diff" id="temp_diff">
+          <option value="1">°Celsius</option>
+          <option value="2">°Fahrenheit</option>
+        </select>
+        <br />
+        <input name="temp" type="submit" /> <br />
+        <span id="resultContainer"></span>
+        <button class="fahToCelBtn">°Fahrenheit</button>
+        <button class="celToFahBtn">°Celsius</button>
+      </form> -->
+    </section>
 
-  <script src="main.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
