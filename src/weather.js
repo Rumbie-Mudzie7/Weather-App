@@ -8,7 +8,7 @@ function setWeather(choice = null) {
       
       document.querySelector('body').style.backgroundImage = 'url("../src/images/clear-weather.jpeg")';
     } else if (choice.weather[0].main === 'Clouds') {
-      document.querySelector('body').style.backgroundImage = 'url("../src/images/clouds-weather2.jpg")';
+      document.querySelector('body').style.backgroundImage = 'url("../src/images/clouds-weather1.jpeg")';
     } else if (choice.weather[0].main === 'Rain') {
       document.querySelector('body').style.backgroundImage = 'url("../src/images/rain-weather4.jpg")';
     } else if (choice.weather[0].main === 'Mist')  
